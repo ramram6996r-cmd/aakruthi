@@ -42,7 +42,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15 }}
-            className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-1"
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight"
             id="hero-title"
           >
             We Construct Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-yellow-300 to-cyan-400">Dream House</span> With Absolute Craftsmanship.
@@ -83,7 +83,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
             </div>
             <div className="col-span-2 sm:col-span-1">
               <div className="flex items-center gap-1.5 text-emerald-400">
-                <thumbsUp className="w-5 h-5" />
+                <ThumbsUp className="w-5 h-5" />
                 <span className="text-xl sm:text-2xl font-bold font-mono">100%</span>
               </div>
               <p className="text-xs text-slate-400 mt-1 font-semibold uppercase tracking-wider">Vastu & Cost Verified</p>
