@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;750;900&family=JetBrains+Mono:wght@400;500;700&family=Lexend+Deca:wght@400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Lexend Deca", "Inter", sans-serif;
+}
+
+/* Custom modern scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a; /* slate-900 */
+}
+::-webkit-scrollbar-thumb {
+  background: #334155; /* slate-700 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0ea5e9; /* sky-500 */
+}
+
+/* Customized focus outline styles */
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid #06b6d4 !important; /* cyan-500 */
+  outline-offset: 1px;
+}
